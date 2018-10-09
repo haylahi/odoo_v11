@@ -4,7 +4,7 @@ odoo.define('google_chart_api.InvoicesGraph', function(require){
     var core = require('web.core');
     var Widget = require('web.Widget');
 
-    var GraphInvoicesWidgetManager = Widget.extend({
+    var GraphInvoicesWidget = Widget.extend({
        template: 'InvoiceChart',
 
         init: function(parent) {
@@ -69,7 +69,7 @@ odoo.define('google_chart_api.InvoicesGraph', function(require){
               }
 }    
 });
-        core.action_registry.add('google_chart_api.invoice_barchart', GraphInvoicesWidgetManager);
+        core.action_registry.add('google_chart_api.invoice_barchart', GraphInvoicesWidget);
 
 });
 
