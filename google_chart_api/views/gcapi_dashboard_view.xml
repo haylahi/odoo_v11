@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	 <template id="sale asset backend" name="sale_dashboard_graph_assets" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"/>
+                <script type="text/javascript" src="/google_chart_api/static/src/js/dashboard.js"/>
+
+            </xpath>
+        </template>
+
+        <record id="action_invoices_dashboard" model="ir.actions.client">
+            <field name="name">Dashboard</field>
+            <field name="tag">google_chart_api.invoice_barchart</field>
+        </record>
+
+        <menuitem id="gcapi_dashboard_menu" sequence="30" name="Dashboard"/>
+
+</odoo>
