@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates xml:space="preserve">
+	 <t t-name="InvoiceChart">
+	 		<div id="graphs" class="row">
+				  	<table class="table">
+				  		<tbody>
+				  			<tr>
+					  			<td width="50%">
+								    <div id="invoice_bar_chart">
+								    	
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+	</t>
+</templates>
