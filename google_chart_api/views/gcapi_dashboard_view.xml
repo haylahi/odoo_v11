@@ -2,6 +2,7 @@
 <odoo>
 	 <template id="sale asset backend" name="sale_dashboard_graph_assets" inherit_id="web.assets_backend">
             <xpath expr="." position="inside">
+             
                 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"/>
                 <script type="text/javascript" src="/google_chart_api/static/src/js/dashboard.js"/>
 

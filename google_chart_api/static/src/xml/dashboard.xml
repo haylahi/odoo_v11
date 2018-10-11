@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <templates xml:space="preserve">
 	 <t t-name="InvoiceChart">
+	 		<div class="container">
 	 		<div id="graphs" class="row">
-				  	<table class="table">
+				  	<table id="gcapi_dashboard_table" class="table">
 				  		<tbody>
 				  			<tr>
 					  			<td width="50%">
-								    <div id="invoice_bar_chart">
+								    <div class="gcapi_chart" id="invoice_bar_chart">
 								    	
 									</div>
 								</td>
@@ -14,5 +15,6 @@
 						</tbody>
 					</table>
 				</div>
+			</div>
 	</t>
 </templates>
