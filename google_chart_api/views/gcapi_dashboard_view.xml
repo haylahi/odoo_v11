@@ -13,6 +13,6 @@
             <field name="tag">google_chart_api.invoice_barchart</field>
         </record>
 
-        <menuitem id="gcapi_dashboard_menu" sequence="30" name="Dashboard"/>
+        <menuitem id="gcapi_dashboard_menu" action="action_invoices_dashboard" sequence="30" name="Dashboard"/>
 
 </odoo>

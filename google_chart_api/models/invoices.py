@@ -1,9 +1,9 @@
 from odoo import models, fields, api,exceptions
 
 class gcapi_dashboard(models.Model):
-    _name = "gcapi.dashboard"
+	_name = "gcapi.dashboard"
 
-    @api.model
+	@api.model
 	def get_invoices_amount(self):
 		account_invoice = self.env['account.invoice']
 		states = {'draft':"Brouillon",'open':"Ouverte",'paid':"Payée",'cancel':"Annulée"}
