@@ -50,8 +50,8 @@ odoo.define('google_chart_api.InvoicesGraph', function(require){
               var data = self._get_data()
               function DrawGraph() {
                 var data_table= []
-                setTimeout(function(){data = google.visualization.arrayToDataTable(data);},3000);
-               
+                setTimeout(function(){data_table = google.visualization.arrayToDataTable(data);},3000);
+                
                 var options = {
                   chart: {
                     title: 'Factures',
